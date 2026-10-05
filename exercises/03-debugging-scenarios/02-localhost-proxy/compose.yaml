@@ -1,0 +1,7 @@
+services:
+  frontend:
+    build: ./frontend
+    ports: ["8090:80"]
+    depends_on: [api]
+  api:
+    build: ../../../examples/01-basic-compose/api

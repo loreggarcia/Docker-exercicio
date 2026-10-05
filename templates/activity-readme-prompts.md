@@ -1,0 +1,14 @@
+- Qual problema foi recebido?
+- Quais serviços existem?
+- Qual o contrato entre eles?
+- Quais imagens foram construídas?
+- O que pertence ao Dockerfile?
+- O que pertence ao Compose?
+- Quais portas são internas?
+- Qual porta é publicada?
+- Como os serviços se encontram?
+- Quais testes foram realizados?
+- Quais erros foram encontrados?
+- Como cada erro foi investigado?
+- Quais evidências sustentam a conclusão?
+- O que foi aprendido?

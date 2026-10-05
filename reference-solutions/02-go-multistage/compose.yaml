@@ -1,0 +1,9 @@
+services:
+  frontend:
+    build: ../../examples/02-multistage-web/frontend
+    ports:
+      - "8082:80"
+    depends_on:
+      - api
+  api:
+    build: ./api

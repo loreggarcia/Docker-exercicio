@@ -1,0 +1,8 @@
+services:
+  frontend:
+    build: ../../../examples/01-basic-compose/frontend
+    ports: ["8090:80"]
+    depends_on: [api]
+  api:
+    build: ../../../examples/01-basic-compose/api
+    command: ["gunicorn", "--bind", "127.0.0.1:5000", "--access-logfile", "-", "app:app"]

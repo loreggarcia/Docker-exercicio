@@ -1,0 +1,9 @@
+services:
+  frontend:
+    build: ../../exercises/01-complete-the-compose/frontend
+    ports:
+      - "8081:80"
+    depends_on:
+      - api
+  api:
+    build: ../../exercises/01-complete-the-compose/api
